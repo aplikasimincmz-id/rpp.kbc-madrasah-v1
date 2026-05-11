@@ -15,7 +15,7 @@ export default function Footer() {
               </div>
               <div>
                 <h3 className="text-white font-bold">RPP Kurikulum Berbasis Cinta</h3>
-                <p className="text-sm text-slate-400">Mewujudkan cinta dalam ruh pendidikan</p>
+                <p className="text-sm text-slate-400">Mewujudkan cinta dalam Ruh Pendidikan</p>
               </div>
             </div>
             <p className="text-sm">
