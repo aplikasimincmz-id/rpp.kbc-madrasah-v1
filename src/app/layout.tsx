@@ -3,8 +3,8 @@ import type { ReactNode } from "react";
 import "./globals.css";
 
 export const metadata: Metadata = {
-  title: "RPP Generator KBC - Kemenag RI",
-  description: "Aplikasi Generator RPP Deep Learning Berbasis KBC (Karakteristik Berbasis Cinta) untuk Madrasah di lingkungan Kementerian Agama RI",
+  title: "RPP Kurikulum Berbasis Cinta - Mewujudkan cinta dalam ruh pendidikan",
+  description: "Aplikasi Generator RPP Deep Learning Berbasis KBC (Karakteristik Berbasis Cinta) untuk guru Madrasah",
 };
 
 export default function RootLayout({ children }: { children: ReactNode }) {
