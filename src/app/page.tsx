@@ -20,12 +20,10 @@ export default async function HomePage() {
       <header className="container mx-auto px-4 py-6">
         <nav className="flex items-center justify-between">
           <div className="flex items-center gap-3">
-            <div className="w-12 h-12 bg-white rounded-full flex items-center justify-center shadow-lg">
-              <span className="text-kemenag-green font-bold text-xl">K</span>
-            </div>
+            <img src="https://freeimghost.com/images/2026/05/08/logo-kemenag60fceb73d13a9d39.png" alt="Logo Kemenag" className="w-12 h-12 object-contain" />
             <div className="text-white">
               <h1 className="font-bold text-lg">RPP Kurikulum Berbasis Cinta</h1>
-              <p className="text-green-200 text-xs">Mewujudkan cinta dalam Ruh Pendidikan</p>
+              <p className="text-green-200 text-xs">"Mewujudkan Cinta Dalam Ruh Pendidikan"</p>
             </div>
           </div>
           <div className="flex items-center gap-3">
@@ -56,7 +54,7 @@ export default async function HomePage() {
           </h2>
           <p className="text-xl text-green-100 mb-8 max-w-2xl mx-auto">
             Aplikasi untuk membantu guru-guru Madrasah Ibtidaiyah (MI) hingga Madrasah
-            Aliyah (MA). Buat RPP lengkap
+            Aliyah (MA) dalam menyusun Perencanaan Pembelajaran. Silahkan Buat RPP lengkap
             dengan AI dalam hitungan menit!
           </p>
           <div className="flex flex-col sm:flex-row items-center justify-center gap-4">
