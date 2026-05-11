@@ -51,7 +51,7 @@ export default function Navbar({ user }: NavbarProps) {
             </div>
             <div className="hidden sm:block">
               <h1 className="text-white font-bold text-lg">RPP Kurikulum Berbasis Cinta</h1>
-              <p className="text-green-200 text-xs">Mewujudkan cinta dalam ruh pendidikan</p>
+              <p className="text-green-200 text-xs">Mewujudkan cinta dalam Ruh Pendidikan</p>
             </div>
           </Link>
 
