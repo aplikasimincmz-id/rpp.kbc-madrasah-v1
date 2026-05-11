@@ -50,8 +50,8 @@ export default function Navbar({ user }: NavbarProps) {
               <span className="text-kemenag-green font-bold text-lg">K</span>
             </div>
             <div className="hidden sm:block">
-              <h1 className="text-white font-bold text-lg">RPP Generator KBC</h1>
-              <p className="text-green-200 text-xs">Kementerian Agama RI</p>
+              <h1 className="text-white font-bold text-lg">RPP Kurikulum Berbasis Cinta</h1>
+              <p className="text-green-200 text-xs">Mewujudkan cinta dalam ruh pendidikan</p>
             </div>
           </Link>
 
