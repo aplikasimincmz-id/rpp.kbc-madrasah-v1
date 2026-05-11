@@ -24,8 +24,8 @@ export default async function HomePage() {
               <span className="text-kemenag-green font-bold text-xl">K</span>
             </div>
             <div className="text-white">
-              <h1 className="font-bold text-lg">RPP Generator KBC</h1>
-              <p className="text-green-200 text-xs">Kementerian Agama RI</p>
+              <h1 className="font-bold text-lg">RPP Kurikulum Berbasis Cinta</h1>
+              <p className="text-green-200 text-xs">Mewujudkan cinta dalam ruh pendidikan</p>
             </div>
           </div>
           <div className="flex items-center gap-3">
@@ -55,7 +55,7 @@ export default async function HomePage() {
             Berbasis KBC Otomatis
           </h2>
           <p className="text-xl text-green-100 mb-8 max-w-2xl mx-auto">
-            Aplikasi untuk guru-guru Madrasah Ibtidaiyah (MI) hingga Madrasah
+            Aplikasi untuk membantu guru-guru Madrasah Ibtidaiyah (MI) hingga Madrasah
             Aliyah (MA) di lingkungan Kementerian Agama RI. Buat RPP lengkap
             dengan AI dalam hitungan menit!
           </p>
