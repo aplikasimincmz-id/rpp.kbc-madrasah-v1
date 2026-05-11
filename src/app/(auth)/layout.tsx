@@ -12,7 +12,7 @@ export default function AuthLayout({ children }: { children: ReactNode }) {
           </div>
           <div className="text-white">
             <h1 className="font-bold">RPP Generator KBC</h1>
-            <p className="text-green-200 text-xs">Kementerian Agama RI</p>
+            <p className="text-green-200 text-xs">"Madrasah Maju, Ramah, dan Terintegrasi"</p>
           </div>
         </Link>
       </header>
@@ -24,7 +24,7 @@ export default function AuthLayout({ children }: { children: ReactNode }) {
 
       {/* Footer */}
       <footer className="p-6 text-center text-green-200 text-sm">
-        <p>© {new Date().getFullYear()} Kementerian Agama Republik Indonesia</p>
+        <p>© {new Date().getFullYear()} Agus Arifien</p>
       </footer>
     </div>
   );
