@@ -14,8 +14,8 @@ export default function Footer() {
                 <span className="text-white font-bold text-lg">K</span>
               </div>
               <div>
-                <h3 className="text-white font-bold">RPP Generator KBC</h3>
-                <p className="text-sm text-slate-400">Kementerian Agama RI</p>
+                <h3 className="text-white font-bold">RPP Kurikulum Berbasis Cinta</h3>
+                <p className="text-sm text-slate-400">Mewujudkan cinta dalam ruh pendidikan</p>
               </div>
             </div>
             <p className="text-sm">
@@ -74,8 +74,7 @@ export default function Footer() {
 
         <div className="border-t border-slate-700 mt-8 pt-6 text-center text-sm">
           <p>
-            © {currentYear} Kementerian Agama Republik Indonesia. Hak Cipta
-            Dilindungi.
+            © {currentYear} Agus Arifien. @ MIN 1 Ciamis.
           </p>
         </div>
       </div>
