@@ -10,12 +10,10 @@ export default function Footer() {
           {/* Logo & Description */}
           <div>
             <div className="flex items-center gap-3 mb-4">
-              <div className="w-10 h-10 bg-kemenag-green rounded-full flex items-center justify-center">
-                <span className="text-white font-bold text-lg">K</span>
-              </div>
+              <img src="https://freeimghost.com/images/2026/05/08/logo-kemenag60fceb73d13a9d39.png" alt="Logo Kemenag" className="w-10 h-10 object-contain" />
               <div>
                 <h3 className="text-white font-bold">RPP Kurikulum Berbasis Cinta</h3>
-                <p className="text-sm text-slate-400">Mewujudkan cinta dalam Ruh Pendidikan</p>
+                <p className="text-sm text-slate-400">"Dengan cinta kami mendidik, dengan cinta kami membimbing, dengan cinta kami mengabdi"</p>
               </div>
             </div>
             <p className="text-sm">
@@ -74,7 +72,8 @@ export default function Footer() {
 
         <div className="border-t border-slate-700 mt-8 pt-6 text-center text-sm">
           <p>
-            © {currentYear} Agus Arifien. @ MIN 1 Ciamis.
+            © {currentYear} Agus Arifien @ min1ciamis. Hak Cipta
+            Dilindungi.
           </p>
         </div>
       </div>
