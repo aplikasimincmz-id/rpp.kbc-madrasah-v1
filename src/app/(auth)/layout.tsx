@@ -7,11 +7,9 @@ export default function AuthLayout({ children }: { children: ReactNode }) {
       {/* Header */}
       <header className="p-6">
         <Link href="/" className="flex items-center gap-3 w-fit">
-          <div className="w-10 h-10 bg-white rounded-full flex items-center justify-center shadow">
-            <span className="text-kemenag-green font-bold text-lg">K</span>
-          </div>
+          <img src="https://freeimghost.com/images/2026/05/08/logo-kemenag60fceb73d13a9d39.png" alt="Logo Kemenag" className="w-10 h-10 object-contain" />
           <div className="text-white">
-            <h1 className="font-bold">RPP Generator KBC</h1>
+            <h1 className="font-bold">RPP Kurikulum Berbasis Cinta</h1>
             <p className="text-green-200 text-xs">"Madrasah Maju, Ramah, dan Terintegrasi"</p>
           </div>
         </Link>
@@ -24,7 +22,7 @@ export default function AuthLayout({ children }: { children: ReactNode }) {
 
       {/* Footer */}
       <footer className="p-6 text-center text-green-200 text-sm">
-        <p>© {new Date().getFullYear()} Agus Arifien</p>
+        <p>© {new Date().getFullYear()} Agus Arifien @ min1ciamis</p>
       </footer>
     </div>
   );
