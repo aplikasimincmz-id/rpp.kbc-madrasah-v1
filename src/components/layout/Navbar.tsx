@@ -46,12 +46,10 @@ export default function Navbar({ user }: NavbarProps) {
         <div className="flex items-center justify-between h-16">
           {/* Logo */}
           <Link href="/dashboard" className="flex items-center gap-3">
-            <div className="w-10 h-10 bg-white rounded-full flex items-center justify-center">
-              <span className="text-kemenag-green font-bold text-lg">K</span>
-            </div>
+            <img src="https://freeimghost.com/images/2026/05/08/logo-kemenag60fceb73d13a9d39.png" alt="Logo Kemenag" className="w-10 h-10 object-contain" />
             <div className="hidden sm:block">
               <h1 className="text-white font-bold text-lg">RPP Kurikulum Berbasis Cinta</h1>
-              <p className="text-green-200 text-xs">Mewujudkan cinta dalam Ruh Pendidikan</p>
+              <p className="text-green-200 text-xs">"Mewujudkan cinta dalam ruh pendidikan"</p>
             </div>
           </Link>
 
