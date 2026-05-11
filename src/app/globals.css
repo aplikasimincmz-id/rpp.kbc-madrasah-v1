@@ -1,0 +1,110 @@
+@import "tailwindcss";
+
+@theme {
+  --color-kemenag-green: #1a5d1a;
+  --color-kemenag-green-light: #2e8b2e;
+  --color-kemenag-gold: #d4af37;
+  --color-kemenag-gold-light: #f0d77c;
+}
+
+/* Custom scrollbar */
+::-webkit-scrollbar {
+  width: 8px;
+  height: 8px;
+}
+
+::-webkit-scrollbar-track {
+  background: #f1f5f9;
+}
+
+::-webkit-scrollbar-thumb {
+  background: #94a3b8;
+  border-radius: 4px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: #64748b;
+}
+
+/* Print styles for RPP document */
+@media print {
+  body {
+    font-family: 'Times New Roman', serif !important;
+    font-size: 12pt !important;
+    line-height: 1.5 !important;
+    background: white !important;
+    color: black !important;
+    -webkit-print-color-adjust: exact !important;
+    print-color-adjust: exact !important;
+  }
+
+  /* Sembunyikan navbar, footer, tombol-tombol, dan elemen non-konten */
+  .no-print,
+  nav,
+  footer,
+  button {
+    display: none !important;
+  }
+
+  /* Pastikan main content full width tanpa padding berlebih */
+  main {
+    padding: 0 !important;
+    margin: 0 !important;
+    max-width: 100% !important;
+  }
+
+  .print-break {
+    page-break-before: always;
+  }
+
+  /* Hindari konten terpotong di tengah */
+  h2, h3, h4 {
+    page-break-after: avoid;
+  }
+
+  table, tr, td {
+    page-break-inside: avoid;
+  }
+}
+
+/* Loading spinner animation */
+@keyframes spin {
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+.animate-spin {
+  animation: spin 1s linear infinite;
+}
+
+/* Toast animations */
+@keyframes slideIn {
+  from {
+    transform: translateX(100%);
+    opacity: 0;
+  }
+  to {
+    transform: translateX(0);
+    opacity: 1;
+  }
+}
+
+@keyframes slideOut {
+  from {
+    transform: translateX(0);
+    opacity: 1;
+  }
+  to {
+    transform: translateX(100%);
+    opacity: 0;
+  }
+}
+
+.toast-enter {
+  animation: slideIn 0.3s ease-out;
+}
+
+.toast-exit {
+  animation: slideOut 0.3s ease-in;
+}
